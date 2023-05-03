@@ -1,3 +1,182 @@
+html {
+	height: 100%;
+}
+body {
+	font-family: Inter, sans-serif;
+	margin: 0;
+	background: url(drinks1.png) 100% 0 no-repeat;
+	box-sizng:border-box;
+	overflow-x:hidden;
+	overflow-y:srcoll;
+}
+nav {
+	padding: 21px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: 1;
+	background:white;
+}
+a {
+	margin-bottom: 4px;
+	text-decoration:none;
+}
+p {
+	line-height:30px;
+}
+header {
+	display: flex;
+	flex-direction:column;
+}
+header a {
+	color:black;
+	margin-right: 21px;
+	letter-spacing:1px;
+	font-weight:300;
+}
+a[href="#main"] {
+	color:#6D9773;
+	border-bottom:1px solid #6D9773;
+}
+a:hover {
+	animation-name: example;
+  animation-duration: 1s;
+  color:rgba(40,40,40,0.8);
+}
+@keyframes example {
+  0% {transform:translateY(0px);}
+  100% {transform:translateY(-3px);}
+}
 h1 {
-    color: green;
+	color:white;
+	text-align: center;
+	font-weight:200;
+	background:#000000B2;
+	margin: 104px 25% 64px;
+	padding:22px 0;
+	font-size: 48px;
+}
+.main-header__content {
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0 25% 46px;
+	padding: 0 15px;
+	border-left: 1px solid #6D9773;
+	border-right: 1px solid #6D9773;
+}
+img {
+	width: 100%;
+	transform-style:preserve-3d;
+  filter: grayscale(1);
+}
+.section-introduction {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 66px 100px 46px;
+}
+.section-about {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	margin: 66px 100px 46px;
+}
+.section-about h2 {
+	font-size: 32px;
+	font-weight: 200;
+}
+.section-about__underline {
+	border-bottom: 1px solid #6D9773;
+	margin: 20px 	45vh;
+}
+.upper-block, .downer-block, footer {
+	background:#6D9773;
+	height: 70px;
+	filter:grayscale(1);
+}
+.upper-block {
+	margin-top: -5px;
+}
+footer {
+	background: #6D9773;
+	margin-top: 50px;
+	text-align: center;
+	padding: 1% 0 0 0;
+	font-size: 18px;
+}
+.method h2,h3 {
+	font-weight: 300;
+}
+.method h2 {
+	text-align: center;
+}
+.method {
+	margin: 0px 10%;
+	font-size: 20px;
+}
+.drinks h2 {
+	font-weight: 300;
+	font-size: 40px;
+}
+.drinks {
+	margin-top: 50px;
+	justify-content: center;
+	display: flex;
+	flex-wrap:wrap;
+}
+h2 {
+	font-weight: 300;
+	margin-top: 70px;
+	font-size: 30px;
+	text-align: center;
+}
+#black-cola {
+	display: flex;
+	justify-content: center;
+}
+#black-cola img {
+	width: 30%;
+}
+#coolcola {
+	display: flex;
+	justify-content: center;
+}
+#coolcola img {
+	width: 50%;
+}
+#coca-cola {
+	display: flex;
+	justify-content: center;
+}
+#coca-cola img {
+	width: 17%;
+	height: 95%;
+}
+#pepsi-cola {
+	display: flex;
+	justify-content: space-between;
+}
+#pepsi-cola img {
+	width: 100%;
+}
+.drinks section {
+	margin: 0 0 50px 50px;
+	font-size: 25px;
+}
+p, li {
+	font-weight: 300;
+}
+#coca-cola, #pepsi-cola {
+	margin-left: -70px;
+}
+#coca-cola div, #pepsi-cola div {
+	margin-right: 120px;
+}
+.conclusion {
+	font-size: 20px;
+	text-align: justify;
+	margin: 0px 5%;
 }
